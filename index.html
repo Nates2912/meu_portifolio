@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio | Desenvolvedora Frontend</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">Dev<span>.</span></div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre" class="about-section">
+            <div class="container about-container">
+                <div class="about-text">
+                    <h1>Olá, eu sou <span>[Insira Seu Nome Aqui]</span></h1>
+                    <h2>Desenvolvedora Frontend</h2>
+                    <p>
+                        Sou desenvolvedora, vinda do curso técnico de Desenvolvimento de Sistemas do <strong>SENAI</strong>. 
+                        Com uma base sólida em lógica e estruturação de softwares, meu objetivo principal é me tornar uma 
+                        <strong>programadora frontend</strong> de excelência, unindo a precisão do código com a sensibilidade do design.
+                    </p>
+                    <p>
+                        Busco constantemente criar interfaces que não apenas funcionem perfeitamente, mas que também entreguem 
+                        uma experiência fluida, acessível e visualmente incrível para o usuário.
+                    </p>
+                    <a href="#contato" class="btn">Vamos conversar?</a>
+                </div>
+
+                <div class="about-img">
+                    <img src="assets/sua-foto.jpg" alt="Foto de Perfil">
+                </div>
+            </div>
+        </section>
+
+        <section id="habilidades" class="skills-section">
+            <div class="container">
+                <h2 class="section-title">Minhas <span>Habilidades</span></h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML5</h3>
+                        <p>Estruturação semântica e acessível para a web.</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS3</h3>
+                        <p>Estilização moderna, layouts responsivos (Flexbox/Grid) e animações.</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                        <p>Dinamismo, manipulação do DOM e consumo de APIs.</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-cube"></i>
+                        <h3>Modelagem 3D</h3>
+                        <p>Criação e manipulação de assets e ambientes tridimensionais.</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-palette"></i>
+                        <h3>Design & UI</h3>
+                        <p>Noções de harmonia de cores, tipografia e prototipagem de interfaces.</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-language"></i>
+                        <h3>Inglês Fluente</h3>
+                        <p>Comunicação clara, leitura técnica e facilidade com documentações internacionais.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="projects-section">
+            <div class="container">
+                <h2 class="section-title">Meus <span>Projetos</span></h2>
+                <div class="projects-grid">
+                    
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="assets/print-projeto1.png" alt="Demonstração do Projeto SENAI">
+                        </div>
+                        <div class="project-info">
+                            <h3>Projeto SENAI</h3>
+                            <p>Descrição curta do principal projeto que você desenvolveu no SENAI. Explique o problema que ele resolveu.</p>
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/seu-usuario/seu-repositorio" target="_blank"><i class="fab fa-github"></i> Repositório</a>
+                                <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="assets/print-projeto2.png" alt="Demonstração do Projeto de Design/3D">
+                        </div>
+                        <div class="project-info">
+                            <h3>Projeto Autônomo / Design</h3>
+                            <p>Um projeto focado nas suas habilidades de Design ou onde aplicou seus conhecimentos de modelagem 3D.</p>
+                            <div class="project-tags">
+                                <span>UI/UX</span>
+                                <span>3D</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" target="_blank"><i class="fab fa-github"></i> Repositório</a>
+                                <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contact-section">
+            <div class="container">
+                <h2 class="section-title">Entre em <span>Contato</span></h2>
+                <p class="contact-subtitle">Estou aberta a oportunidades, freelances e parcerias!</p>
+                <div class="contact-links">
+                    <a href="mailto:seu-email@gmail.com" class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>seu-email@gmail.com</span>
+                    </a>
+                    <a href="https://linkedin.com/in/seu-linkedin" target="_blank" class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/seu-usuario" target="_blank" class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 [Seu Nome]. Feito com <i class="fas fa-heart"></i> focado em Frontend.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
