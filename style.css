@@ -217,6 +217,10 @@ header {
     border: 2px solid var(--text-color);
     box-shadow: 4px 4px 0px var(--text-color);
     transition: transform 0.3s, box-shadow 0.3s;
+    /* Ajustes para manter o card único centralizado e elegante */
+    max-width: 550px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .project-card:hover {
@@ -226,7 +230,7 @@ header {
 
 .project-img img {
     width: 100%;
-    height: 200px;
+    height: 240px; /* Aumentado levemente para destacar melhor o app mobile */
     object-fit: cover;
     border-bottom: 2px solid var(--text-color);
     display: block;
